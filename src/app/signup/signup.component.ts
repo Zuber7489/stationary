@@ -20,7 +20,8 @@ export class SignupComponent implements OnInit {
     email: new FormControl('', Validators.pattern(this.emailPattern)),
     number: new FormControl('', Validators.required),
 
-    password: new FormControl('', Validators.required)
+    password: new FormControl('', Validators.required),
+    confirmPassword: new FormControl('', Validators.required)
   })
 
   get name() {
@@ -31,11 +32,19 @@ export class SignupComponent implements OnInit {
   }
 
   signUp() {
-    this.http.post('http://localhost:3000/posts', this.signupForm.value).subscribe(res => {
-      alert("Student Registered Successfully");
-      this.signupForm.reset();
-      this.route.navigate(['login'])
-    })
-  }
+    console.log( this.signupForm.value.confirmPassword ,' this.signupForm.value.confirmPassword ');
+    
+    if(this.signupForm.value.password === this.signupForm.value.confirmPassword ){
+      this.http.post('http://localhost:3000/posts', this.signupForm.value).subscribe(res => {
+        alert("Student Registered Successfully");
+        this.signupForm.reset();
+        this.route.navigate(['login'])
+      })
+    }
+    else{
+      alert('please enter correct password and confirm password');
+    }
+    }
+    
 
 }
