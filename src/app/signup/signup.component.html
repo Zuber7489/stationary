@@ -1,0 +1,57 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class=" mt-md-1">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">signup</h2>
+                <p class="text-white-50 mb-5">Please enter your signup and password!</p>
+  <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <div class="form-outline form-white mb-4">
+                    <label class="form-label" >Name</label>
+                  <input type="text"  minlength="5" formControlName="name" placeholder="enter your Name" class="form-control form-control-lg" />
+                  <span class="text-danger"  *ngIf="signupForm.controls['name'].touched && signupForm.hasError('required','name')">Name is required</span>
+                </div>
+  
+                <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typePasswordX">email</label>
+                  <input type="email" formControlName="email" placeholder="enter your email" class="form-control form-control-lg" />
+                  <span class="text-danger"  *ngIf="signupForm.controls['email'].touched && signupForm.hasError('required','email')">email is required</span>
+                </div>
+                <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typePasswordX">Number</label>
+                  <input type="number" formControlName="number" placeholder="enter your number" class="form-control form-control-lg" />
+                  <span class="text-danger"  *ngIf="signupForm.controls['number'].touched && signupForm.hasError('required','number')">number is required</span>
+                </div>
+            
+  
+  
+                <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typePasswordX">password</label>
+                  <input type="password" formControlName="password" placeholder="enter your password" class="form-control form-control-lg" />
+                  <span class="text-danger"  *ngIf="signupForm.controls['password'].touched && signupForm.hasError('required','password')">password is required</span>
+                </div>
+                <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typePasswordX">password</label>
+                  <input type="password" formControlName="password" placeholder="Confirm your password" class="form-control form-control-lg" />
+                  
+                </div>
+  
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" >Signup</button>
+  
+              </form>
+  
+              </div>
+  
+              <br><br>
+              <a routerLink="/login" class="text-decoration-none">Already Member ? Click here to Login</a>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,205 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 2
+    },
+    {
+      "name": "3e3r4",
+      "email": "34r34",
+      "number": 34234,
+      "gender": "",
+      "password": "dwdwd",
+      "id": 3
+    },
+    {
+      "name": "3e3r4",
+      "email": "34r34",
+      "number": 34234,
+      "gender": "",
+      "password": "dwdwd",
+      "id": 4
+    },
+    {
+      "name": "f3er34wr",
+      "email": "43t5",
+      "number": 45345345,
+      "male": "HTML",
+      "female": "",
+      "password": "34535",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "number": "",
+      "gender": "",
+      "password": "2113",
+      "id": 6
+    },
+    {
+      "name": "swe",
+      "email": "w2e2qe2",
+      "number": null,
+      "password": "e2e42",
+      "id": 7
+    },
+    {
+      "name": "Zuber",
+      "email": "Zuber@gmail.com",
+      "number": 997712154,
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "number": "",
+      "password": "2113",
+      "id": 9
+    },
+    {
+      "email": "w2e2qe2",
+      "password": "e2e42",
+      "id": 10
+    },
+    {
+      "email": "w2e2qe2",
+      "password": "e2e42",
+      "id": 11
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 12
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 13
+    },
+    {
+      "email": "hi",
+      "password": "2113asdsad",
+      "id": 14
+    },
+    {
+      "email": "hi",
+      "password": "2113ASSas",
+      "id": 15
+    },
+    {
+      "email": "hiasdad",
+      "password": "2113zxczc",
+      "id": 16
+    },
+    {
+      "email": "hizx12",
+      "password": "21132344cx",
+      "id": 17
+    },
+    {
+      "email": "hiasd",
+      "password": "21132313123",
+      "id": 18
+    },
+    {
+      "email": "hiasd",
+      "password": "21132313123",
+      "id": 19
+    },
+    {
+      "email": "hiasd",
+      "password": "21132313123",
+      "id": 20
+    },
+    {
+      "email": "hiasd",
+      "password": "21132313123",
+      "id": 21
+    },
+    {
+      "email": "hiasd",
+      "password": "21132313123",
+      "id": 22
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 23
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 24
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 25
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 26
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 27
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 28
+    },
+    {
+      "name": "",
+      "email": "",
+      "number": "",
+      "password": "2113",
+      "id": 29
+    },
+    {
+      "email": "hi",
+      "password": "2113a",
+      "id": 30
+    },
+    {
+      "email": "hi",
+      "password": "2113a",
+      "id": 31
+    },
+    {
+      "email": "hi",
+      "password": "2113a",
+      "id": 32
+    },
+    {
+      "email": "hi",
+      "password": "2113a",
+      "id": 33
+    },
+    {
+      "email": "hi",
+      "password": "2113",
+      "id": 34
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
