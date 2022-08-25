@@ -61,7 +61,9 @@
                   <label class="form-label" for="typePasswordX">Confirm password</label>
                   <input type="password" formControlName="confirmPassword" placeholder="Confirm your password"
                     class="form-control form-control-lg" />
-
+                    <span class="text-danger"
+                    *ngIf="signupForm.controls['confirmPassword'].touched && signupForm.hasError('required','confirmPassword')"> Confirm password
+                    Please</span>
                 </div>
 
                 <button class="btn btn-outline-light btn-lg px-5" [disabled]="!signupForm.valid" type="submit">Signup</button>

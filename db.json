@@ -7,6 +7,22 @@
       "password": "123",
       "confirmPassword": "123",
       "id": 1
+    },
+    {
+      "name": "",
+      "email": "zuber",
+      "number": null,
+      "password": "",
+      "confirmPassword": "",
+      "id": 2
+    },
+    {
+      "name": "demooooo",
+      "email": "demo@gmail.com",
+      "number": 74581232,
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 3
     }
   ],
   "comments": [
